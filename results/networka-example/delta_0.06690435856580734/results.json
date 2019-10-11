@@ -1,0 +1,107 @@
+{
+    "statistics": {
+        "2": {
+            "expected": 3.8333333333333335, 
+            "pval": 1.0, 
+            "observed": 3
+        }, 
+        "3": {
+            "expected": 1.8333333333333333, 
+            "pval": 0.8333333333333334, 
+            "observed": 2
+        }, 
+        "4": {
+            "expected": 1.0, 
+            "pval": 0.0, 
+            "observed": 2
+        }, 
+        "5": {
+            "expected": 1.0, 
+            "pval": 0.0, 
+            "observed": 2
+        }, 
+        "6": {
+            "expected": 1.0, 
+            "pval": 0.0, 
+            "observed": 2
+        }, 
+        "7": {
+            "expected": 1.0, 
+            "pval": 0.0, 
+            "observed": 2
+        }, 
+        "8": {
+            "expected": 1.0, 
+            "pval": 1.0, 
+            "observed": 1
+        }, 
+        "9": {
+            "expected": 1.0, 
+            "pval": 1.0, 
+            "observed": 1
+        }, 
+        "10": {
+            "expected": 1.0, 
+            "pval": 1.0, 
+            "observed": 0
+        }
+    }, 
+    "components": [
+        [
+            "gene18", 
+            "gene19", 
+            "gene20", 
+            "gene21", 
+            "gene22", 
+            "gene23", 
+            "gene24", 
+            "gene25", 
+            "gene7"
+        ], 
+        [
+            "gene1", 
+            "gene10", 
+            "gene11", 
+            "gene2", 
+            "gene3", 
+            "gene5", 
+            "gene6"
+        ], 
+        [
+            "gene12", 
+            "gene4"
+        ]
+    ], 
+    "parameters": {
+        "display_name_file": null, 
+        "display_score_file": null, 
+        "deltas": [], 
+        "verbose": 1, 
+        "heat_permutations": 6, 
+        "num_cores": 1, 
+        "network_permutations": 3, 
+        "output_directory": "HotNet2", 
+        "heat_files": [
+            "example.json"
+        ], 
+        "output_hierarchy": false, 
+        "consensus_permutations": 0, 
+        "delta": 0.06690435856580734, 
+        "min_cc_size": 2, 
+        "network_files": [
+            "networkA_ppr_0.24.h5", 
+            "networkB_ppr_0.26.h5"
+        ], 
+        "network_name": "networkA", 
+        "permuted_network_paths": [
+            "permuted_networkA/permuted/networkA_ppr_0.24_##NUM##.h5", 
+            "permuted_networkB/permuted/networkB_ppr_0.26_##NUM##.h5"
+        ], 
+        "heat_name": "example"
+    }, 
+    "sizes": {
+        "9": 1, 
+        "2": 1, 
+        "7": 1
+    }
+}
