@@ -35,3 +35,11 @@ results/
     │   └── significance.txt
     └── viz-data.json
 ```
+
+From HotNet2 documentation:
+
+>The output of HotNet2.py consists of a directory containing the following:
+
+>`{network_name}-{heat_name}`/: For each (network, heat score) pair, HotNet2.py outputs a directory of results. The directory contains subdirectories starting with "delta" for each delta parameter tested, each of which contain the subnetworks and statistical signifciance associated with that delta parameter.
+
+>`consensus`/: The consensus/ directory contains the consensus file across all networks and heat scores
